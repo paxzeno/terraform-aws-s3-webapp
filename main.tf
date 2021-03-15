@@ -30,7 +30,7 @@ EOF
     error_document = "error.html"
 
   }
-  force_destroy = true
+  force_destroy = false
 }
 
 resource "aws_s3_bucket_object" "webapp" {
